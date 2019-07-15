@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+}
+
+.leftMain {
+    flex: 1;
+    background-color: #FFEDF7;
+}
+
+.leftBreak {
+    flex: 1;
+    background-color: #E5F3FF;
+}
+
+.right {
+    width: 35%;
+    height: 100vh;
+    background-color: #003164;
+}
