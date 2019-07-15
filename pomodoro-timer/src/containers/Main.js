@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Main.module.css';
+import TaskWrapper from '../components/TaskWrapper/TaskWrapper';
+import AddTask from '../components/TaskWrapper/AddTask/AddTask';
 
 class Main extends Component {
 
@@ -11,10 +13,9 @@ class Main extends Component {
         return (
             <div className={styles.container}>
                 <div className={this.state.takingBreak ? styles.leftBreak : styles.leftMain}>
-                    <div>AddTask</div>
-                    <div>CurrentTask</div>
-                    <div>TodoList</div>
-                    <div>Clock</div>
+                    <TaskWrapper>
+                        <AddTask />
+                    </TaskWrapper>
                 </div>
                 <div className={styles.right}>
                 </div>

@@ -1,0 +1,28 @@
+.taskInput {
+    width: 100%;
+    height: 56px;
+    display: flex;
+}
+
+.taskInput ::placeholder {
+    font-size: 16px;
+    font-style: italic;
+    color: #FF4384;
+}
+
+.taskInput input {
+    width: 373px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FF4384;
+    border: none;
+    padding: 19px 0 18px 16px;
+}
+
+.taskInput button {
+    width: 56px;
+    border: none;
+    cursor: pointer;
+    background: white;
+}
