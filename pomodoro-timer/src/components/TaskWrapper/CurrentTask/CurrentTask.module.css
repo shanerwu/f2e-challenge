@@ -1,0 +1,25 @@
+.currentTask {
+    display: flex;
+    margin-top: 50px;
+}
+
+.todo {
+    display: inline;
+    font-size: 24px;
+    font-weight: bold;
+    color: #003164;
+}
+
+.checkBox {
+    width: 48px;
+    height: 48px;
+    border: 2px #003164 solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.time {
+    font-size: 170px;
+    font-weight: bold;
+    color: #FF4384;
+}
