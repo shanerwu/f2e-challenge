@@ -1,10 +1,14 @@
 .currentTask {
     display: flex;
-    margin-top: 50px;
+    align-items: flex-end;
+    margin-top: 90px;
 }
 
-.todo {
-    display: inline;
+.task {
+    display: flex;
+}
+
+.task p {
     font-size: 24px;
     font-weight: bold;
     color: #003164;
@@ -16,6 +20,7 @@
     border: 2px #003164 solid;
     border-radius: 50%;
     cursor: pointer;
+    margin-right: 16px;
 }
 
 .time {
